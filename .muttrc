@@ -1,0 +1,26 @@
+# account/imap config
+set realname = ""
+set imap_user = '@gmail.com'
+set spoolfile = imaps://imap.gmail.com:993/INBOX
+set smtp_url = "smtp://yourname@smtp.gmail.ocm:587/"
+set folder = "imaps://imap.gmail.com:993"
+set record="+[Gmail]/Sent Mail"
+set postponed="+[Gmail]/Drafts"
+set header_cache="~/.mutt/cache/headers"
+set message_cachedir="~/.mutt/cache/bodies"
+set certificate_file="~/.mutt/certificates"
+
+# general mailbox config
+set imap_check_subscribed=yes
+set move=no
+set delete=yes
+set edit_hdrs
+set include
+set reply_to
+set abort_nosubject=no
+set sig_dashes=no
+
+# sidebar config
+set sidebar_visible=yes
+set sidebar_width=30
+

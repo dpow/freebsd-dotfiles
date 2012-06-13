@@ -1,0 +1,13 @@
+# aliases
+alias ls='ls -G'		# colorize command prompt
+
+
+# define custom colors
+RED="\[\e[0;31m\]"		# red
+BRED="\[\e[1;31m\]"		# bold red
+WHITE="\[\e[0;37m\]"		# white
+
+
+# custom bash prompt for root
+#export PS1="#-[\u@\h]-[\w]-[$?]-# "
+export PS1="$BRED#$RED-[$BRED\u@\h$RED]-[$BRED\w$RED]-[$BRED$?$RED]-$BRED# $WHITE"

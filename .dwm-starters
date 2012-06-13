@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# .dwm-starters - a startup script for a clock and
+#                 a background image in dwm.
+#
+
+# set the desktop background image
+#feh --bg-scale /home/assess0r/img/bg.jpg
+
+# set the clock in the upper right hand corner
+while true 
+do 
+	xsetroot -name "$(date +'%a %b %d %r')"
+	sleep 1s
+done
